@@ -1,12 +1,10 @@
 # Disaster Response Web App
 
 ## Installation
-The codes in this repository was written in Python 3, and requires the following Python packages: json, plotly, pandas, nltk, flask, sklearn, sqlalchemy, sys, numpy, re, pickle, warnings.
+The codes in this repository was written in Python 3, and requires the following Python packages: json, plotly, pandas, nltk, flask, sklearn, sqlalchemy, sys, numpy, re, etc.
 
 ## Project Overview
-This repository contains code for a web app for Disaster Management. 
-
-The app uses a ML model to categorize any new messages received.
+The project was to create a web app for disaster management to categorize new messages for sending them to their respective authorities.
 
 ## File Descriptions
 * **process_data.py**: This code takes as its input csv files containing message data. The data undergoes ETL Pipeline and get prepared to run Machine Learning Model. 
@@ -36,4 +34,4 @@ The app uses a ML model to categorize any new messages received.
 ## Warning
 The datasets included in this repository are very unbalanced, with few positive examples for several message categories. 
 ## Licensing, Authors, Acknowledgements
-This app was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
+I want to thank Udacity for encouraging me to do this project.This app was completed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
